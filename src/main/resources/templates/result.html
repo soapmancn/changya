@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>唱鸭MP3下载</title>
+
+</head>
+<body>
+<h2>解析成功</h2>
+<p>歌曲名：<a th:text="${result.getSongName()}"></a> </p>
+<p>演唱者：<a th:text="${result.getSingerNickName()}"></a> </p>
+<p>下载链接：<a th:href="${result.getSongSrc()}" th:text="${result.getSongSrc()}"></a></p>
+</body>
+</html>

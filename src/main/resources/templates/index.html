@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>唱鸭MP3下载</title>
+
+</head>
+<body>
+    <h2>唱鸭MP3下载</h2>
+    <form action="#" th:action="@{/changya/mp3}" th:object="${entry}" method="post">
+        <p>歌曲分享链接: <input type="text" th:field="*{shareUrl}" /></p>
+        <p><input type="submit" value="解析" /> </p>
+    </form>
+</body>
+</html>
