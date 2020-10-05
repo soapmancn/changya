@@ -1,6 +1,6 @@
 # 唱鸭MP3下载
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Davenchy/live-torrent)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/soap-man/changya)
 
 ### 指引
 
